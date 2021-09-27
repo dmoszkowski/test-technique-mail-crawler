@@ -1,0 +1,10 @@
+{
+	"name": "test-technique-mail-crawler",
+	"version": "1.0.0",
+	"description": "Test technique permettant de crawler des pages web à la recherche d'adresses mail",
+	"main": "src/index.mjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "ISC"
+}
