@@ -2,9 +2,16 @@
 	"name": "test-technique-mail-crawler",
 	"version": "1.0.0",
 	"description": "Test technique permettant de crawler des pages web à la recherche d'adresses mail",
-	"main": "src/index.mjs",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node src/index.mjs",
+		"serve": "node -r dotenv-defaults/config src/server.js",
+		"test": "node src/test.mjs"
 	},
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.4",
+		"dotenv-defaults": "^3.0.0",
+		"express": "^4.17.1",
+		"kleur": "^4.1.4"
+	}
 }
